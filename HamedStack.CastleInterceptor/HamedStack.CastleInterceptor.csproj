@@ -13,7 +13,11 @@
         <RepositoryUrl>https://github.com/HamedStack/HamedStack.CastleInterceptor</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Castle.Core" Version="5.1.1" />
     </ItemGroup>
